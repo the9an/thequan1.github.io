@@ -14,7 +14,7 @@
 <meta property="og:description" content="Xin chào mọi người. Mình tên là Quân. Một Engineer đang làm việc và sinh sống tại Nhật. Thấy bạn bè có blog cá nhân nên mình cũng muốn làm 1 cái, để có thể chia sẻ kinh nghiệm và muốn nghe ý kiến của">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-05-15T17:02:52.000Z">
-<meta property="article:modified_time" content="2020-05-16T09:24:15.000Z">
+<meta property="article:modified_time" content="2020-05-16T09:29:41.000Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="Node.js">
@@ -183,13 +183,14 @@
 <p><code>$ npm install hexo-deployer-git -save</code></p>
 <p>Cuối cùng là deploy</p>
 <p><code>$ hexo deploy</code></p>
-<p>Hexo sẽ tự động tạo static web, sau đó sẽ push lên Github cho mình.<br>Từ sau trở đi khi bạn muốn update blog từ local lên Github Pages thì chỉ cần dùng lệnh deploy thôi.</p>
 <p>Giờ thì vào link https://<github-username>.github.io để tận hưởng thành quả.</p>
 <h1 id="Tao-bai-viet-moi"><a href="#Tao-bai-viet-moi" class="headerlink" title="Tạo bài viết mới"></a>Tạo bài viết mới</h1><p>Để tạo 1 bài viêt. Mình sẽ dùng câu lệnh đơn giản.</p>
 <p><code>$ hexo new post &quot;Khai trương blog mới&quot;</code></p>
 <p>post: chính là layout. Hexo cung cấp 3 loại layout là post, page, draft.<br>sau post là tên tiêu đề của blog.</p>
 <p>Tại thư mục source/_post/ bạn sẽ thấy Hexo đã sinh tự động cho mình 1 static web với định dạng .md.<br>Bạn cần phải biết <a href="https://www.markdownguide.org/basic-syntax/" target="_blank" rel="noopener">markdown</a> để viết nội dung blog.</p>
 <p>Ngoài ra bạn có thể cho thêm tags, categoies đính kèm vào bài viết. Bạn có thể tìm hiểu thêm ở <a href="https://hexo.io/docs" target="_blank" rel="noopener">https://hexo.io/docs</a></p>
+<p><code>$ hexo generate</code><br><code>$ hexo deploy</code></p>
+<p>Hexo sẽ tự động tạo static web, sau đó sẽ push lên Github cho mình.</p>
 <h1 id="Themes"><a href="#Themes" class="headerlink" title="Themes"></a>Themes</h1><p>Ai cũng muốn mặc cho blog 1 cái áo thật ngầu phải không.<br>Hexo hỗ trợ thay đổi themes. Các themes sẽ được lưu ở thư mục themes/. Ở đây ta có themes mặc đình là landscape<br>Các themes có sẵn: <a href="https://hexo.io/themes/index.html" target="_blank" rel="noopener">https://hexo.io/themes/index.html</a><br>Sau khi download và cài đặt themes thì mình sẽ chỉnh sửa cấu hình themes trong file _config.yml</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: cactus</span><br></pre></td></tr></table></figure>
 
